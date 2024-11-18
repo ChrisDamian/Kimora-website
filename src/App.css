@@ -1,0 +1,49 @@
+/* app.css */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header, footer {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('path-to-your-hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.card-content {
+    max-width: 60%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
