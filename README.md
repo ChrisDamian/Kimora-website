@@ -1,8 +1,4 @@
-# React + Vite
+# KIMORA_WEBSITE LANDING AND CONTACT PAGE
+This template provides a MVP to create a webiste utilising React , MySQL , express ,.env and more .The website is far from a modern webdesign but provides a stabl base of componentsworking in unision to achieve the goals of the idealised organization .
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The product is currently in development and will be fine tuned to provide better usability and improved functionality 
